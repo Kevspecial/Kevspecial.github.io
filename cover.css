@@ -29,6 +29,30 @@ body {
   height: 100%;
   background-color: #333;
 }
+#myVideo {
+  position: fixed;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   transform: translateX(-50%) translateY(-50%);
+   z-index: 0
+}
+body video {
+    display: ;
+  }
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #8B8878;
+  opacity: 0.5;
+  z-index: 1;
+} */
 
 body {
   display: -ms-flexbox;
@@ -47,6 +71,10 @@ body {
  * Header
  */
 .masthead {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 3rem;
+  z-index: 2;
   margin-bottom: 2rem;
 }
 
@@ -90,6 +118,7 @@ body {
  * Cover
  */
 .cover {
+  position: relative;
   padding: 0 1.5rem;
 }
 .cover .btn-lg {
@@ -102,5 +131,7 @@ body {
  * Footer
  */
 .mastfoot {
+    position: relative;
+    overflow: hidden;
   color: rgba(255, 255, 255, .5);
 }
