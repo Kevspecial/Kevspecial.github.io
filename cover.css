@@ -80,6 +80,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  color: rgba(159, 48, 48, 0.5);
 }
 
 .nav-masthead .nav-link {
@@ -100,7 +101,7 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  color: rgba(159, 48, 48, 0.5);
   border-bottom-color: #fff;
 }
 
