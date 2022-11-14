@@ -40,9 +40,6 @@ body {
    transform: translateX(-50%) translateY(-50%);
    z-index: 0
 }
-body video {
- 
-  }
 /* .overlay {
   position: absolute;
   top: 0;
@@ -74,7 +71,7 @@ body {
   position: relative;
   overflow: hidden;
   padding-bottom: 3rem;
-  z-index: 2;
+  z-index: 4;
   margin-bottom: 2rem;
 }
 
